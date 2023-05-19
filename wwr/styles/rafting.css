@@ -1,45 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
 
-
-
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+.bar{
+    background-color: rgb(245,193,97);
+    max-width: 200px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+.bar li{
+    height: 100%;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(235,177,69);
 }
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-
-p{
-    padding: 25px;
-}
-
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+.bar li a{
+    padding-left: 20px;
+    text-align: left;
+    color: black;
+    max-width: 100%;
+    height: 100%;
     display: flex;
-}
-
-nav a {
-    display: block;
-    color: var(--nav-hover-link-color);
+    align-items: center;
     text-decoration: none;
-    padding: 1rem;
+}
+.bar li a:hover{
+    background-color: rgb(235,177,69);
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+.bar li a.active{
+    background: rgb(165,113,16);
+    color: white;
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
