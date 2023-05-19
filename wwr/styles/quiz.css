@@ -1,13 +1,28 @@
 
 body{
     background-color: aliceblue;
+
+}
+.mydiv{
+    border: 5px outset black;
+    text-align: center;
 }
 h1{
     color: black;
     margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-action{
+    color: black;
+    margin-left: 40px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
+
 .button{
+    background-color: blue;
     border: none;
     color: whitesmoke;
     padding: 15px 32px;
@@ -17,6 +32,4 @@ h1{
     margin: 4px 2px;
     cursor: pointer;
 }
-.button{
-    background-color: blue;
-}/*blue*/
+
