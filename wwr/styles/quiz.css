@@ -12,16 +12,26 @@ h1{
     margin-left: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.form-action{
+text{
     color: black;
     margin-left: 40px;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
-
-.button{
+textarea{
+    color:black;
+    margin-left: 40px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+select{
+    color: black;
+    margin-left: 40px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
     background-color: blue;
     border: none;
     color: whitesmoke;
