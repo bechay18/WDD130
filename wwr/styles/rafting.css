@@ -60,6 +60,11 @@ h3{
 img{
     width: 400px;
 }
+figcaption{
+    background-color: green;
+    color: seashell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 form{
     background-color: steelblue;
     color: bisque;
@@ -73,7 +78,7 @@ button{
     text-align: center;
 }
 footer{
-    background-color: lightgreen;
+    background-color: antiquewhite;
 }
 nav img{
     width: 50px;
