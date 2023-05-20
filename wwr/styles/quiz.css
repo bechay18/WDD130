@@ -29,7 +29,8 @@ select{
     color: black;
     margin-left: 40px;
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
 }
 button{
     background-color: blue;
