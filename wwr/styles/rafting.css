@@ -6,6 +6,7 @@
     width: 100%;
     list-style: none;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bar li{
     height: 100%;
@@ -40,4 +41,33 @@ h1{
     display: flex;
     align-items: center;
 }
-
+p{
+    background-color: steelblue;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p a{
+    color: coral;
+}
+h2{
+    color: steelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 400px;
+}
+form{
+    background-color: steelblue;
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color:slategray;
+    border: navajowhite;
+    color: aliceblue;
+    padding: 20px 40px;
+}
