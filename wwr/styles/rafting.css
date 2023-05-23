@@ -35,8 +35,10 @@ nav{
     padding: 0;
 }
 
-li{
+nav li{
     float:right;
+    height: 100%;
+
 }
 
 a{
@@ -50,6 +52,7 @@ a{
 .hero-img{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
+    background-image: url("/wwr/images/river-wide.jpg");
     display: block;
     height: auto;
     width: 100%;
@@ -61,12 +64,13 @@ a{
 
 
 /* Sub hero */
-.sub-hero {
-    width: 20px;
+.sub-hero img{
+    width: 100px;
 }
 
 .sub-text {
-
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 
