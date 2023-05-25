@@ -38,6 +38,9 @@ nav{
     background-color: rgb(245,193,97);
     display: flex;
     list-style: none;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-items: center;
 }
 .navigation li{
     flex: 1 1 100%;
@@ -45,7 +48,9 @@ nav{
 .navigation a{
     display: block;
     color:beige;
-    padding: 20px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -65,7 +70,9 @@ h5{
 
 /* Navigation */
 
-
+main{
+    background-color: steelblue;
+}
 
 /* Hero Image */
 .hero-img{
@@ -80,6 +87,7 @@ h5{
     background-size:cover;
     position: relative;
     padding: 100px;
+    border: 5px solid steelblue;
 }
 
 
@@ -91,8 +99,8 @@ h5{
 
 .sub-text {
     color: aliceblue;
-    font-size:small;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size:medium;
+    font-family:'Dancing Script', cursive;
 }
 
 figure1 img{
@@ -101,7 +109,7 @@ figure1 img{
 
 }
 figcaption2{
-    color:blueviolet;
+    color:rgb(245,193,97);
     font-size: medium;
     text-align: center;
     font-family: 'lobster',cursive;
@@ -162,12 +170,13 @@ p a{
     color: coral;
 }
 h2{
-    color: steelblue;
+    color: whitesmoke;
     font-family: 'lobster', cursive;
 }
 h3{
     color: brown;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'lobster', cursive;
+    font-size: xx-large;
 }
 img{
     width: 400px;
