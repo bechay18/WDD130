@@ -89,9 +89,13 @@ main{
 
 footer{
     margin-top: 1em;
-    border-top: 1px solid #0000;
+    border-top: 1px solid black;
     text-align: center;
     
+}
+p{
+    background-color: seagreen;
+    color: beige;
 }
 /* Class Selectors */
 
