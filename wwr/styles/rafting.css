@@ -103,12 +103,13 @@ main{
     font-family:'Dancing Script', cursive;
 }
 
-figure1 img{
+.figure1 img{
     width: 400px;
-    display: flex;
+    display: block;
+    align-items: center;
 
 }
-figcaption2{
+figcaption{
     color:rgb(245,193,97);
     font-size: medium;
     text-align: center;
@@ -180,8 +181,9 @@ h3{
 }
 img{
     width: 400px;
+    display: flex;
 }
-figcaption{
+.figcaption{
     background-color: green;
     color: seashell;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
