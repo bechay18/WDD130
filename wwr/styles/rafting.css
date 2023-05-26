@@ -24,7 +24,7 @@ header img {
     height: auto;
     display: flex;
 }
-figcaption1{
+.figcaption1{
     color: steelblue;
     padding-top: 100px;
     font-size: medium;
