@@ -80,8 +80,8 @@ main{
     rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
     background-image: url("/wwr/images/river-wide.jpg");
     display: block;
-    height: auto;
-    width: 1800px;
+    height: 500;
+    width: 1600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
