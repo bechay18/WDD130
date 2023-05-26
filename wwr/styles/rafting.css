@@ -24,13 +24,7 @@ header img {
     height: auto;
     display: flex;
 }
-.figcaption1{
-    color: steelblue;
-    padding-top: 100px;
-    font-size: medium;
-    text-align: center;
-    font-family:'Lobster', cursive;
-}
+
 nav{
     text-align: right;
 }
@@ -103,21 +97,12 @@ main{
     font-family:'Dancing Script', cursive;
 }
 
-.figure1 img{
+.figure img{
     width: 400px;
     display: block;
     align-items: center;
 
 }
-figcaption{
-    color:rgb(245,193,97);
-    font-size: medium;
-    text-align: center;
-    font-family: 'lobster',cursive;
-}
-
-
-
 .bar{
     background-color: rgb(245,193,97);
     max-width: 200px;
@@ -179,14 +164,36 @@ h3{
     font-family: 'lobster', cursive;
     font-size: xx-large;
 }
-img{
-    width: 400px;
-    display: flex;
+figure{
+    border: 4px  steelblue solid;
+    padding: 4px;
+    margin: auto;
 }
-.figcaption{
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    display: center;
+}
+div.gallery:hover{
+    border:1px solid #777
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+    font-family: 'lobster', cursive;
+}
+
+figcaption{
     background-color: green;
     color: seashell;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'lobster', cursive;
+    text-align: center;
 }
 form{
     background-color: steelblue;
