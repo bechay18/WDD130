@@ -156,7 +156,9 @@ p a{
     color: coral;
 }
 h2{
+    text-align: center;
     color: whitesmoke;
+    background-color: seagreen;
     font-family: 'lobster', cursive;
 }
 h3{
@@ -169,26 +171,16 @@ figure{
     padding: 4px;
     margin: auto;
 }
-div.gallery{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    display: center;
+.container{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    align-items: center; 
 }
-div.gallery:hover{
-    border:1px solid #777
-}
-div.gallery img{
+.container img{
     width: 100%;
-    height: auto;
+    border: 5px solid goldenrod;
+    padding: 2px;
 }
-div.desc{
-    padding: 15px;
-    text-align: center;
-    font-family: 'lobster', cursive;
-}
-
 figcaption{
     background-color: green;
     color: seashell;
@@ -213,10 +205,7 @@ h4{
 }
 
 footer{
-    margin-top: 1rem;
-    border-top: 1px solid #000;
     background-color: antiquewhite;
-
 }
 nav img{
     width: 30px;
