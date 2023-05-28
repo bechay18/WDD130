@@ -80,8 +80,7 @@ main{
     rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
     background-image: url("/wwr/images/river-wide.jpg");
     display: block;
-    height: auto;
-    width: 100%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -157,6 +156,8 @@ h1{
     height: 100%;
     display: flex;
     align-items: center;
+    font-family: 'Caveat', cursive;
+    text-shadow: 0 0 20px burlywood;
 }
 p{
     background-color: rgb(165,113,16);
@@ -198,12 +199,7 @@ figure{
     width: 100%;
     border: 5px solid goldenrod;
     padding: 5px;
-}
-aside image{
-    position: relative;
-    width: 200px;
-    border: #ccc;
-    display: center;
+    align-items: center;
 }
 figcaption{
     background-color: green;
