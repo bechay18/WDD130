@@ -57,6 +57,9 @@ nav{
     font-weight: 700;
     text-decoration: underline;
 }
+.navigation li a.active{
+    background-color: rgb(165,113,16);
+    }
 
 h5{
     margin-top: 0;
@@ -156,7 +159,7 @@ h1{
     align-items: center;
 }
 p{
-    background-color: steelblue;
+    background-color: rgb(165,113,16);
     color: beige;
     font-family:  'Caveat', cursive;
     font-size: x-large;
@@ -188,15 +191,16 @@ figure{
 }
 .container{
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-template-columns: 50% 50% 50% 50% 50%;
     align-items: center; 
 }
 .container img{
     width: 100%;
     border: 5px solid goldenrod;
-    padding: 2px;
+    padding: 5px;
 }
 aside image{
+    position: relative;
     width: 200px;
     border: #ccc;
     display: center;
