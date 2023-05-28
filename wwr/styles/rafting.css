@@ -10,6 +10,9 @@
 
 
 /* Header */
+body{
+    background-color: lightslategray;
+}
 
 header{
     margin: 1rem;
@@ -115,7 +118,7 @@ main{
     width: 100%;
     height: 50px;
     border-bottom: 1px solid rgb(235,177,69);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Caveat', cursive;
 }
 .bar li a{
     padding-left: 20px;
@@ -124,7 +127,7 @@ main{
     max-width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items:center;
     text-decoration: none;
 }
 .bar li a:hover{
@@ -133,10 +136,15 @@ main{
 }
 
 .bar li a.active{
-    padding-right: 100px;
+    padding-right: 105px;
     background:  rgb(165,113,16);
     color: white;
     
+}
+.icontent{
+    margin: auto;
+    background: skyblue;
+    padding: 10px;
 }
 h1{
     padding-left: 20px;
@@ -150,21 +158,28 @@ h1{
 p{
     background-color: steelblue;
     color: beige;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  'Caveat', cursive;
+    font-size: x-large;
 }
 p a{
     color: coral;
 }
 h2{
+    text-shadow: 0 0 10px rgb(245,193,97);
     text-align: center;
     color: whitesmoke;
     background-color: seagreen;
     font-family: 'lobster', cursive;
 }
 h3{
+    text-shadow: 0 0 10px rgb(165,113,16);
     color: brown;
     font-family: 'lobster', cursive;
     font-size: xx-large;
+}
+h4{
+    text-shadow: 0 0 10px greenyellow;
+    font-family: 'Caveat', cursive;;
 }
 figure{
     border: 4px  steelblue solid;
@@ -173,13 +188,16 @@ figure{
 }
 .container{
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-columns: 10% 10% 10% 10% 10%;
     align-items: center; 
 }
 .container img{
     width: 100%;
     border: 5px solid goldenrod;
     padding: 2px;
+}
+aside image{
+    width: 200px;
 }
 figcaption{
     background-color: green;
