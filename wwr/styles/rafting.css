@@ -78,7 +78,7 @@ main{
 .hero-img{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
-    background-image: url("/wwr/images/river-wide.jpg");
+    background-image: url("/wwr/images/river-wide2.jpg");
     display: block;
     height: 50%;
     background-position: center;
@@ -234,5 +234,28 @@ nav img{
 /* trip */
 .hero-text{
     color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-text button{
+    border: whitesmoke;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+h7{
+    color: burlywood;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Dancing script', cursive;
 }
