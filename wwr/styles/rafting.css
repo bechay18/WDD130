@@ -72,6 +72,7 @@ h5{
 
 main{
     background-color: steelblue;
+    background-size: cover;
 }
 
 /* Hero Image */
@@ -80,7 +81,8 @@ main{
     rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
     background-image: url("/wwr/images/river-wide2.jpg");
     display: block;
-    height: 50%;
+    width: 86%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
