@@ -47,9 +47,9 @@ nav{
     color:beige;
     padding: 0.5rem;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'caveat', cursive;
 }
 .navigation a:hover{
     background-color: rgb(235,177,69);
@@ -111,17 +111,16 @@ main{
 
 }
 .bar{
-    background-color: rgb(245,193,97);
-    max-width: 200px;
-    width: 100%;
+    background-color:  rgb(188, 143, 143);
+    width: 25px;
     list-style: none;
     padding-right: 100px;
+    padding-left: 0;
 }
 .bar li{
-    height: 100%;
-    width: 100%;
     height: 50px;
-    border-bottom: 1px solid rgb(235,177,69);
+    width: 25px;
+    border-bottom: 1px solid rgb(188, 177, 143);
     font-family: 'Caveat', cursive;
 }
 .bar li a{
@@ -135,13 +134,15 @@ main{
     text-decoration: none;
 }
 .bar li a:hover{
-    background-color: rgb(235,177,69);
+    background-color: rgb(188, 155, 143);
+    color: tomato;
     padding: 20px;
 }
 
 .bar li a.active{
     padding-right: 105px;
-    background:  rgb(165,113,16);
+    background:  rgb(188, 155, 143);
+    color: tomato;
     color: white;
     
 }
@@ -163,9 +164,7 @@ p{
     font-family:  'Caveat', cursive;
     font-size: x-large;
 }
-p a{
-    color: coral;
-}
+
 h2{
     text-shadow: 0 0 10px rgb(245,193,97);
     text-align: center;
@@ -191,16 +190,18 @@ figure{
 .container{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    align-items: center; 
+    align-items: center;
+    justify-content: space-evenly; 
 }
 .container img{
     width: 100%;
     border: 5px solid goldenrod;
     padding: 5px;
     align-items: center;
+    justify-content: space-evenly;
 }
 figcaption{
-    background-color: green;
+    background-color: 	rgb(143, 188, 143);
     color: seashell;
     font-family: 'lobster', cursive;
     text-align: center;
