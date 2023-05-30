@@ -76,13 +76,13 @@ main{
 }
 
 /* Hero Image */
-.hero-img{
+div.hero-img{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
-    background-image: url("/wwr/images/river-wide2.jpg");
-    display: block;
+    background-image: url("../images/river-wide2.jpg");
+    /* display: block;
     width: 86%;
-    height: auto;
+    height: auto; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
