@@ -33,6 +33,7 @@ header img {
 }
 
 nav{
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,11 +164,10 @@ main{
     
 }
 .map{
-    padding-left: 150px;
+    padding: 150px;
     display: inline;
     align-items: center;
 }
-
 h1{
     padding-inline-start: 500px;
     text-align: left;
