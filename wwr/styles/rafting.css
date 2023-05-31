@@ -120,18 +120,10 @@ main{
     right: 0;
     margin: 0;
 }
-
-.sub-text {
-    color: aliceblue;
-    font-size:medium;
-    font-family:'Dancing Script', cursive;
-}
-
 .figure img{
     width: 400px;
     display: block;
     align-items: center;
-
 }
 .bar{
     background-color:  rgb(188, 143, 143);
