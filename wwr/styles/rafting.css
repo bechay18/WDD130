@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /* div image{
     width: 400px;
 } */
@@ -12,24 +13,30 @@
 /* Header */
 body{
     background-color: lightslategray;
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'dancing-script' cursive;
+}
+a{
+    text-decoration: none;
 }
 
 header{
-    margin: 1rem;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
-    align-items: center;
+    grid-template-columns: 150px auto;
     border-bottom: 1px solid #ccc;
-    max-width: 1000px;
+    padding: 2rem;
+    grid: 2rem;
 }
 header img {
-    width: 75px;
-    height: auto;
-    display: flex;
+    width: 150px;
 }
 
 nav{
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navigation{
     background-color: rgb(245,193,97);
@@ -76,26 +83,42 @@ main{
 }
 
 /* Hero Image */
-div.hero-img{
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url("images/river-wide"); */
-    background-image: url("../images/river-wide2.jpg");
-    /* display: block;
-    width: 86%;
-    height: auto; */
+.hero-img{
+    width: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding: 100px;
-    border: 5px solid steelblue;
 }
-
-
-/* Sub hero */
-.sub-hero img{
-    width: 150px;
-    border: 2px solid #ccc;
+.hero article img{
+    width: 200px;
+    float: right;
+}
+.hero{
+    height: 400px;
+    overflow: hidden;
+}
+.hero h1{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: azure;
+    background-color: transparent;
+    padding: 1rem;
+}
+.hero article{
+    position: absolute;
+    top: 8rem;
+    background-color: transparent;
+    padding: 1rem;
+    max-width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
 
 .sub-text {
@@ -119,9 +142,10 @@ div.hero-img{
 }
 .bar li{
     height: 50px;
-    width: 25px;
+    width: 125px;
     border-bottom: 1px solid rgb(188, 177, 143);
     font-family: 'Caveat', cursive;
+    font-size: large;
 }
 .bar li a{
     padding-left: 20px;
@@ -141,14 +165,19 @@ div.hero-img{
 
 .bar li a.active{
     padding-right: 105px;
-    background:  rgb(188, 155, 143);
+    background:  rgb(182, 139, 123);
     color: tomato;
     color: white;
     
 }
+.map{
+    padding-left: 150px;
+    display: inline;
+    align-items: center;
+}
 
 h1{
-    padding-left: 20px;
+    padding-inline-start: 500px;
     text-align: left;
     color: coral;
     max-width: 100%;
@@ -173,6 +202,7 @@ h2{
     font-family: 'lobster', cursive;
 }
 h3{
+    padding-inline-start: 500px;
     text-shadow: 0 0 10px rgb(165,113,16);
     color: brown;
     font-family: 'lobster', cursive;
@@ -180,25 +210,33 @@ h3{
 }
 h4{
     text-shadow: 0 0 10px greenyellow;
-    font-family: 'Caveat', cursive;;
+    font-family: 'lobster', cursive;
 }
 figure{
     border: 4px  steelblue solid;
     padding: 4px;
     margin: auto;
 }
-.container{
-    display: grid;
+.grid-container{
+    display: inline;
     grid-template-columns: 20% 20% 20% 20% 20%;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    padding: 10px; 
 }
 .container img{
-    width: 100%;
+    width: 30%;
     border: 5px solid goldenrod;
     padding: 5px;
     align-items: center;
     justify-content: space-evenly;
+}
+.grid-item{
+    background-color: none;
+    border: none;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
 }
 figcaption{
     background-color: 	rgb(143, 188, 143);
@@ -222,14 +260,37 @@ h4{
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+button{
+    border: #ccc;
+    font-size: medium;
+    outline: auto;
+    display: inline;
+    padding: 10px 25px;
+    color: antiquewhite;
+    background-color: navy;
+    cursor: pointer;
+}
+button:hover{
+    background-color: teal;
+    color: coral;
+}
 
 footer{
     background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: auto 160px;
+    color: black;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
 }
-nav img{
-    width: 30px;
+footer div{
+    text-align: center;
+}
+footer img{
+    width: 50px;
+}
 
-}
 /* trip */
 .hero-text{
     color: antiquewhite;

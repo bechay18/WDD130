@@ -4,45 +4,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Arnold Yap/ Wdd 130 /wwr /about us</title>
+  <title>About Us</title>
   <meta name="description" content="Arnold Yap's Wdd 130 course about page">
   <meta name="author" content="Arnold Yap">
-  <link rel="stylesheet" href="../wwr/styles/rafting.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-  </style>
+  <link rel="stylesheet" href="styles/rafting.css">
+  
 </head>
-
 <body>
 
   <header>
-    <figure>
+    
     <img src="images/rafinglogo.png" alt="logo">
-    <figcaption>Zion Rafting</figcaption>
-    </figure>
-
-
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="trips.html">Trips</a></li>
-          <li><a href="contact.html" class="active">Contact Us</a></li>
-        </ul>  
-      </nav>
-      
-
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+    
+    
   </header>
   <main>
     <!-- Hero image -->
-    <div class="hero-img">
-      <div class="sub-hero img">
+    <div class="hero">
+      <img src="images/hero_transparency_1024.png">
+      <h1>White Water Rafting</h1>
+      <article>
         <img src="images/rafting21_600.jpg" alt="happy client">
-        <div class="sub-text">The Benefits of Water Rafting for you and your family.</div>
-      </div>
+      <p>The Benefits of Water Rafting for you and your family.</p>
+      </article>
     </div>
-    
+
     <figure>
     <h2>History</h2>
     <p>Our company, Zion Rafting, has provided excellent benefits for families that love water rafting across the nation
@@ -51,27 +43,32 @@
     <h2>Adventure Awaits You!</h2>
     
     <div class="container">
-      <figure>
+      <figure class="figcaption">
+         <div class="grid-item">
          <img src="images/logan-weaver-lgnwvr-TqjxhZf9H5k-unsplash.jpg" alt="For Small Group">
-            <figcaption>For small group.</figcaption>
+            <figcaption>For small group.</figcaption></div>
+         <div class="grid-item">
          <img src="images/elves-chasm-landscape.jpg" alt="Beautiful scenery to see">
-            <figcaption>Beautiful Scenery to see.</figcaption>
+            <figcaption>Beautiful Scenery to see.</figcaption></div>
+         <div class="grid-item">
          <img src="images/rafting31_600.jpg" alt="for corporate team Building">
-            <figcaption>For Corporate Team Building.</figcaption>
+            <figcaption>For Corporate Team Building.</figcaption></div>
+         <div class="grid-item">
          <img src="images/rafting27_1024.jpg" alt="fun family adventures">
-            <figcaption>For fun family Adventures.</figcaption>
+            <figcaption>For fun family Adventures.</figcaption></div>
+         <div class="grid-item">
          <img src="images/rafting7_600.jpg" alt="children aged 5...">                             ,
-            <figcaption>Children aged 5 years and upwards are welcome.</figcaption>
+            <figcaption>Children aged 5 years and upwards are welcome.</figcaption></div>
       </figure>     
     </div>
     
     
     
-
+  </main>
     <footer>
       <p>©️ | 2023 | Zion rafting | Arnold Yap |</p>
 
-      <nav class="sociallinks">
+    <div>
         <a href="https://www.facebook.com">
           <img src="images/5365678_fb_facebook_facebook logo_icon.png" alt="facebook">
         </a>
@@ -81,11 +78,11 @@
         <a href="https://www.linkedin.com">
           <img src="images/1920528_linkedin_logo_network_social_icon.png" alt="linkedin">
         </a>
-
-      </nav>
+    </div>
+    
     </footer>
 
-  </main>
+  
 </body>
 
 </html>
