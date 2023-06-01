@@ -12,7 +12,7 @@
 
 /* Header */
 body{
-    background-color: lightslategray;
+    background-color: #333;
     width: 960px;
     margin: 0 auto;
     font-family: 'dancing-script' cursive;
@@ -98,6 +98,7 @@ main{
 .hero article img{
     width: 200px;
     float: right;
+    border: 2px solid black;
 }
 .hero{
     height: 400px;
@@ -111,14 +112,14 @@ main{
     text-align: center;
     color: azure;
     background-color: transparent;
-    padding: 1rem;
+    padding-right: 3rem;
     font-family: 'dancing-script', cursive;
 }
 .hero article{
     position: absolute;
     top: 8rem;
     background-color: transparent;
-    padding: 1rem;
+    padding: 18rem;
     max-width: 80%;
     left: 0;
     right: 0;
@@ -184,8 +185,8 @@ h1{
     text-shadow: 0 0 20px burlywood;
 }
 p{
-    background-color: transparent;
-    color: beige;
+    background-color: #3333;
+    color: azure;
     font-family:  'lobster', cursive;
     font-size: medium;
 }
@@ -272,7 +273,7 @@ button:hover{
 }
 
 footer{
-    background-color: antiquewhite;
+    background-color: #3333;
     display: grid;
     grid-template-columns: auto 160px;
     color: black;
