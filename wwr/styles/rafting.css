@@ -32,32 +32,34 @@ header img {
     width: 150px;
 }
 
-nav{
+nav {
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .navigation{
-    background-color: rgb(245,193,97);
+    background-color: #333;
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 1rem;
     align-items: center;
 }
-.navigation li{
-    flex: 1 1 100%;
-}
 .navigation a{
+    float: left;
     display: block;
     color:beige;
     padding: 0.5rem;
     font-size: 1.2rem;
     font-weight: 500;
-    text-decoration: none;
-    font-family: 'caveat', cursive;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation li{
+    flex: 1 1 100%;
 }
 .navigation a:hover{
     background-color: rgb(235,177,69);
@@ -79,13 +81,13 @@ h5{
 /* Navigation */
 
 main{
-    background-color: steelblue;
+    background-color: none;
     background-size: cover;
 }
 
 /* Hero Image */
 .hero-img{
-    width: 100%;
+    width: 1800px;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,6 +112,7 @@ main{
     color: azure;
     background-color: transparent;
     padding: 1rem;
+    font-family: 'dancing-script', cursive;
 }
 .hero article{
     position: absolute;
@@ -120,6 +123,7 @@ main{
     left: 0;
     right: 0;
     margin: 0;
+    font-family: 'dancing-scipt', cursive;
 }
 .figure img{
     width: 400px;
@@ -180,10 +184,10 @@ h1{
     text-shadow: 0 0 20px burlywood;
 }
 p{
-    background-color: rgb(165,113,16);
+    background-color: transparent;
     color: beige;
-    font-family:  'Caveat', cursive;
-    font-size: x-large;
+    font-family:  'lobster', cursive;
+    font-size: medium;
 }
 
 h2{
