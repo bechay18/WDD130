@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /* div image{
     width: 400px;
 } */
@@ -32,7 +33,7 @@ header img {
     width: 150px;
 }
 
-nav {
+div nav {
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -58,19 +59,13 @@ nav {
     text-decoration: underline;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.navigation li{
-    flex: 1 1 100%;
-}
+
 .navigation a:hover{
     background-color: rgb(235,177,69);
     color: tomato;
     font-weight: 700;
     text-decoration: underline;
 }
-.navigation li a.active{
-    background-color: rgb(165,113,16);
-    }
-
 h5{
     margin-top: 0;
     background-color: green;
@@ -87,7 +82,7 @@ main{
 
 /* Hero Image */
 .hero-img{
-    width: 1800px;
+    width: 100%;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,14 +100,15 @@ main{
     overflow: hidden;
 }
 .hero h1{
-    position: absolute;
+    position:absolute;
     top: 1rem;
     left: 0;
     right: 0;
     text-align: center;
-    color: azure;
+    color: whitesmoke;
+    text-shadow: 0 0 20px rgb(143, 188, 143);
     background-color: transparent;
-    padding-right: 3rem;
+    padding-left: 30rem;
     font-family: 'dancing-script', cursive;
 }
 .hero article{
@@ -130,6 +126,7 @@ main{
     position: absolute;
     padding: 3rem;
     text-align: center;
+    text-shadow: 0 0 10px rgb(143, 188, 143);
 }
 figure img{
     width: 400px;
@@ -138,50 +135,39 @@ figure img{
     border: 3px solid whitesmoke;
     align-items: center;
 }
-.bar{
-    background-color:  rgb(188, 143, 143);
-    width: 25px;
-    list-style: none;
-    padding-right: 100px;
-    padding-left: 0;
+.navbar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
 }
-.bar li{
-    height: 50px;
-    width: 125px;
-    border-bottom: 1px solid rgb(188, 177, 143);
-    font-family: 'Caveat', cursive;
-    font-size: large;
-}
-.bar li a{
-    padding-left: 20px;
-    text-align: left;
-    color: black;
-    max-width: 100%;
-    height: 100%;
-    display: flex;
-    align-items:center;
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
     text-decoration: none;
-}
-.bar li a:hover{
+    font-size: 17px;
+}    
+.navbar a:hover{
     background-color: rgb(188, 155, 143);
     color: tomato;
     padding: 20px;
 }
 
-.bar li a.active{
-    padding-right: 105px;
+.active{
     background:  rgb(182, 139, 123);
     color: tomato;
     color: white;
     
 }
-.map{
+.div map{
+    border: 3px solid steelblue;
+    white-space: 0;
     padding: 150px;
     display: inline;
     align-items: center;
 }
 h1{
-    padding-inline-start: 500px;
     text-align: left;
     color: coral;
     max-width: 100%;
@@ -206,14 +192,14 @@ h2{
     font-family: 'lobster', cursive;
 }
 h3{
-    padding-inline-start: 500px;
+    text-align: center;
     text-shadow: 0 0 10px rgb(165,113,16);
     color: brown;
     font-family: 'lobster', cursive;
     font-size: xx-large;
 }
 h4{
-    text-shadow: 0 0 10px greenyellow;
+    text-shadow: 0 0 10px black;
     font-family: 'lobster', cursive;
 }
 figure{
@@ -302,23 +288,10 @@ footer img{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.hero-text button{
-    border: whitesmoke;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: antiquewhite;
-    background-color: blueviolet;
-    text-align: center;
-    cursor: pointer;
-}
 
-.hero-text button:hover{
-    background-color: blue;
-    color: aquamarine;
-}
-h7{
-    color: burlywood;
+.hero h7{
+    color: aliceblue;
+    background-color: transparent;
     font-size: 25px;
     text-align: center;
     font-family: 'Dancing script', cursive;
