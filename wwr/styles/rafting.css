@@ -313,6 +313,10 @@ input[type=text], input[type=submit]{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+label{
+    color: black;
+    
+}
 input[type=checkbox]{
     margin-top: 16px;
 }
@@ -324,3 +328,27 @@ input[type=submit]{
 input[type=submit]:hover{
     opacity: 0.8;
 }
+/* footer */
+.item1 {grid-area: header;}
+.item2 {grid-area: menu;}
+.item3 {grid-area: main;}
+.item4 {grid-area: Right;}
+.item5 {grid-area: footer;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+     'header header header header header header'
+     'menu main main main right right'
+     'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+}
+.grid-container> div{
+    background-color: rgb(165,113,16);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
